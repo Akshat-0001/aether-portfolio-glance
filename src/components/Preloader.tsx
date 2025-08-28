@@ -16,30 +16,30 @@ const Preloader = ({ onComplete }: PreloaderProps) => {
     // Initial setup
     gsap.set([textRef.current, progressBarRef.current], { opacity: 0 });
 
-    // Animation sequence
+    // Animation sequence - much faster for better UX
     tl.to(textRef.current, {
       opacity: 1,
-      duration: 0.5,
+      duration: 0.3,
       ease: "power2.out"
     })
     .to(progressBarRef.current, {
       opacity: 1,
-      duration: 0.3
-    }, "-=0.2")
+      duration: 0.2
+    }, "-=0.1")
     .to(progressBarRef.current, {
       width: "100%",
-      duration: 2.5,
+      duration: 1.2,
       ease: "power2.out"
     })
     .to([textRef.current, progressBarRef.current?.parentElement], {
       opacity: 0,
-      duration: 0.5,
+      duration: 0.3,
       ease: "power2.inOut"
-    }, "+=0.3")
+    }, "+=0.2")
     .to(preloaderRef.current, {
       opacity: 0,
       scale: 0.9,
-      duration: 1,
+      duration: 0.6,
       ease: "power2.inOut",
       onComplete: () => {
         onComplete();
