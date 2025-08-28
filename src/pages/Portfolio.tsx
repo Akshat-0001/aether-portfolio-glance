@@ -3,7 +3,9 @@ import Preloader from '../components/Preloader';
 import Navigation from '../components/Navigation';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
+import ExperienceSection from '../components/ExperienceSection';
 import ProjectsSection from '../components/ProjectsSection';
+import AwardsSection from '../components/AwardsSection';
 import ContactSection from '../components/ContactSection';
 import FooterSection from '../components/FooterSection';
 
@@ -33,7 +35,9 @@ const Portfolio = () => {
         <main>
           <HeroSection />
           <AboutSection />
+          <ExperienceSection />
           <ProjectsSection />
+          <AwardsSection />
           <ContactSection />
         </main>
         <FooterSection />

@@ -46,7 +46,9 @@ const Navigation = () => {
   const navItems = [
     { label: 'Home', id: 'hero' },
     { label: 'About', id: 'about' },
+    { label: 'Experience', id: 'experience' },
     { label: 'Projects', id: 'projects' },
+    { label: 'Awards', id: 'awards' },
     { label: 'Contact', id: 'contact' }
   ];
 
@@ -54,7 +56,7 @@ const Navigation = () => {
     <>
       <nav ref={navRef} className="fixed top-0 left-0 right-0 z-50 p-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold gradient-text">MC</div>
+          <div className="text-2xl font-bold gradient-text">AS</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

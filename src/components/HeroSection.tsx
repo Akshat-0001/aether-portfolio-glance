@@ -82,15 +82,15 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 text-center z-10 relative">
         <div ref={titleRef} className="mb-6">
           <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold leading-tight">
-            Hi, I'm <span className="gradient-text">Milad</span>
+            Hi, I'm <span className="gradient-text">Akshat</span>
             <br />
-            <span className="neon-text-cyan">Web Developer</span>
+            <span className="neon-text-cyan">Full Stack Developer</span>
           </h1>
         </div>
         
         <div ref={subtitleRef} className="mb-8">
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Crafting digital experiences that inspire and engage through innovative design and cutting-edge technology.
+            Delivering real-world solutions across mobile apps, full-stack web, and machine learning systems with expertise in fast-paced environments.
           </p>
         </div>
 

@@ -55,7 +55,9 @@ const FooterSection = () => {
   const navLinks = [
     { label: 'Home', id: 'hero' },
     { label: 'About', id: 'about' },
+    { label: 'Experience', id: 'experience' },
     { label: 'Projects', id: 'projects' },
+    { label: 'Awards', id: 'awards' },
     { label: 'Contact', id: 'contact' }
   ];
 
@@ -85,7 +87,7 @@ const FooterSection = () => {
             onClick={scrollToTop}
             className="inline-block text-3xl font-bold gradient-text hover:scale-110 transition-transform duration-300 mb-6"
           >
-            MC
+            AS
           </button>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
@@ -112,7 +114,7 @@ const FooterSection = () => {
         {/* Bottom footer */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-muted-foreground">
           <div className="flex items-center space-x-2">
-            <span>© 2024 Milad. Made with</span>
+            <span>© 2024 Akshat Shukla. Made with</span>
             <Heart size={16} className="text-neon-pink animate-pulse" />
             <span>using React & GSAP</span>
           </div>

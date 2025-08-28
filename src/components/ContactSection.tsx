@@ -182,7 +182,7 @@ const ContactSection = () => {
           
           <div ref={socialRef} className="flex justify-center space-x-6 mt-12 pt-8 border-t border-glass-border">
             <a
-              href="https://github.com"
+              href="https://github.com/akshat-0001"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon w-12 h-12 glass rounded-full flex items-center justify-center hover:neon-glow-cyan hover:scale-110 transition-all duration-300 group"
@@ -190,7 +190,7 @@ const ContactSection = () => {
               <GithubLogo size={24} className="text-muted-foreground group-hover:neon-text-cyan" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/akshat0603"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon w-12 h-12 glass rounded-full flex items-center justify-center hover:neon-glow-cyan hover:scale-110 transition-all duration-300 group"
